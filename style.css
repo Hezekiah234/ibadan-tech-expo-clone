@@ -1,0 +1,552 @@
+#top {
+  position: sticky;
+  top: 0;
+  z-index: 1500;
+  overflow: hidden;
+}
+
+#blue{
+  color: #224093;
+  gap: 100px;
+}
+
+#blue:hover{
+  text-decoration: underline yellow;
+  color: #224093;
+}
+
+#boot:hover {
+  color: white;
+}
+
+#top-image {
+  width: 100px;
+  margin: 5px;
+  overflow: hidden;
+}
+
+#rotate {
+  display: flex;
+  /* gap: 5px; */
+  justify-content: space-between;
+}
+
+#rotating {
+
+  animation: rotating 3s linear infinite;
+
+}
+#rotat{
+  border: 1px;
+  border-radius: 100%;
+  border-color: green;
+  width: 50px;
+  /* overflow: hidden; */
+}
+
+#container {
+  overflow: hidden;
+}
+
+#buttons {
+  display: flex;
+  gap: 70px;
+
+}
+
+#button1 {
+  width: 600px;
+  height: 70px;
+  overflow: hidden;
+
+}
+
+#button2 {
+  width: 600px;
+  height: 70px;
+  border: 2px solid #0D6EFD;
+
+
+}
+
+#color-mix {
+  background-image: linear-gradient(to right, #c58f0b, #5576cf, #5576cf);
+  width: 1300px;
+  height: 300px;
+  padding: 10px;
+  margin-top: 50px;
+  margin-left: 40px;
+  margin-right: 40px;
+  overflow: hidden;
+  text-align: center;
+}
+
+/* #group a{
+  font-size: 24px;
+  font-stretch: 100%;
+  font-weight: 600;
+} */
+hr {
+  font-weight: 700;
+}
+
+#two-body {
+  /* position: relative;
+  top: 100px;
+  left: 30px; */
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  /* overflow: hidden; */
+  display: flex;
+}
+/* #second{
+  /* position: relative; 
+  left: 10px;
+   top: 100px; */
+   /* width: 600px; */
+
+
+
+
+#one-body {
+  /* width: 50px; */
+  /* height: 400px; */
+  /* overflow: hidden;
+  position: relative;
+  left: 50px; */
+  width: 50%;
+
+}
+#lady{
+  width: 100%;
+}
+
+#text-on{
+  color: white;
+  position: absolute;
+  top: 2000px;
+  left: 100px;
+
+}
+
+#about {
+  /* width: 600px; */
+  /* overflow: hidden; */
+}
+#middle{
+  font-weight: 700;
+   margin-left: 300px;
+   margin-top: 200px;
+}
+/* #secure{
+  
+} */
+#tagget{
+ margin-top: 50px;
+  margin-left: 50px;
+  display: flex;
+}
+
+
+@media screen and (max-width:478px) {
+
+  #two-body {
+    display: flex;
+    flex-direction: column;
+  }
+  #all-in-one {
+    font-weight: 400;
+    font-size: 16px;
+    font-stretch: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: -100px;
+  }
+  #middle{
+    font-weight: 700;
+     margin-left: 50px;
+     margin-top: 100px;
+  }
+
+  #tagget{
+    margin-top: 10px;
+     margin-left: 5px;
+     flex-direction: column;
+   }
+   #speakers {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+}
+
+#venue {
+  width: 100%;
+  margin-left: 50px;
+  margin-top: 200px;
+  /* overflow: hidden; */
+}
+#venue-image{
+width: 100%;
+/* overflow: hidden; */
+}
+
+#speakers {
+  margin: 50px 20px 50px 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  overflow: hidden;
+}
+
+#allover {
+  width: 300px;
+  height: 450px;
+  border-radius: 12px;
+  border: none;
+  position: relative;
+  left: 100px;
+  right: 100px;
+  top: 100px;
+  background-color: white;
+  padding-left: 10px;
+  padding-top: 30px;
+  overflow: hidden;
+
+
+}
+
+#allover:hover {
+  background-color: green;
+  color: white;
+  transition: 2s;
+}
+
+#allever {
+  width: 300px;
+  height: 450px;
+  border-radius: 12px;
+  border: none;
+  position: relative;
+  left: 100px;
+  right: 100px;
+  top: 100px;
+  /* background-color: white; */
+  padding-left: 10px;
+  padding-top: 30px;
+  overflow: hidden;
+
+}
+
+#allever:hover {
+  background-color: #224093;
+  color: white;
+  transition: 2s;
+}
+
+
+#allinside {
+  width: 300px;
+  height: 500px;
+  background-color: #c58f0b;
+  position: relative;
+  left: 100px;
+  right: 100px;
+  top: 60px;
+  border-radius: 12px;
+  color: #224093;
+  padding: 5px;
+  overflow: hidden;
+}
+
+#all-in-one {
+  font-weight: 400;
+  font-size: 16px;
+  font-stretch: 100%;
+  display: flex;
+  gap: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+#grade{
+  background-image: linear-gradient( to left, #ba5461, #07194b, #07194b, #07194b);
+  max-width: 100%;
+  padding: 30px;
+  height: 500px;
+  overflow: hidden;
+}
+#ddword{
+margin-top: 10px;
+}
+
+#laptop{
+  position: relative;
+  top: -300px;
+  left: 520px;
+  width: 150px;
+  transition: 0.7s;
+}
+
+#laptop:hover{
+  transform: rotate(20deg);
+  
+}
+
+#girlie{
+  position: relative;
+  top: -310px;
+  left: 520px;
+  width: 450px;
+  overflow: hidden;
+}
+
+#watch{
+  position: relative;
+  top: -450px;
+  left: 550px;
+  width: 150px;
+  overflow: hidden;
+}
+#watch:hover{
+  transform: rotate(-20deg);
+  transition: 1s;
+}
+#word{
+  color: white;
+  font-size: 18px;
+   margin-top: -5px;
+   font-weight: 400;
+    font-stretch: 100%;
+      margin-left: 50px;
+}
+#end{
+  max-width: 100%;
+  height: 100px;
+  display: flex;
+  background-color:  #07194b;
+  padding: 30px;
+  position: relative;
+  top: 100px;
+  overflow: hidden;
+}
+#left-end{
+  display: flex;
+  margin-top: -5px;
+}
+
+#right-end{
+gap: 50px;
+color: white;
+position: relative;
+left: 600px;
+font-size: 20px;
+font-weight: 600;
+display: flex;
+}
+
+
+
+
+
+
+
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+
+}
+
+@media screen and (max-width: 478px) {
+  ul {
+    display: none;
+  }
+
+  #rotate {
+    display: block;
+    padding: none;
+  }
+
+  #root {
+    position: relative;
+    top: 50px;
+  }
+
+  #color-mix {
+    width: 300px;
+    height: 400px;
+    margin-top: 200px;
+  }
+
+  #buttons {
+    position: relative;
+    left: -20px;
+    top: 0px;
+  }
+
+  #button1 {
+    position: relative;
+    left: 10px;
+    top: 10px;
+    width: 300px;
+  }
+
+  #button2 {
+    position: relative;
+    left: -360px;
+    top: 100px;
+    width: 300px;
+  }
+
+
+     #one-body { 
+      /* position: relative; */
+      /* top: 500px; */
+      /* left: -230px; */
+      /* width: 300px; */
+      /* height: 400px; */
+      margin-left: 10px;
+      margin-top: 50px;
+      width: 100%;
+      height: 50%;
+    } 
+    #lady{
+      width: 50%;
+    } 
+    #venue {
+      /* width: 50%; */
+      margin-left: 0px;
+      /* margin-top: 200px; */
+      /* overflow: hidden; */
+    }
+    /* #venue-image{
+    width: 100px;
+    }  */ 
+    #text-on{
+      color: white;
+      position: absolute;
+      top: 3250px;
+      left: 50px;
+    font-size: 16px;
+    }
+
+    #end{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      /* margin-top: 0px; */
+      /* padding: 20px; */
+    
+    }
+    #left-end{
+      margin-left: -50px;
+      margin-top: 20px;
+      /* display: flex; */
+      /* flex-direction: column; */
+    
+    }
+    #left-end1{
+      margin-left: 50px;
+      /* margin-top: 50px; */
+      position: relative;
+      top: 20px;
+    }
+    #right-end{
+      gap: 20px;
+      color: white;
+      position: relative;
+      left: 10px;
+      font-size: 20px;
+      font-weight: 600;
+      display: flex;
+      /* margin-top: 20px; */
+      }
+      
+      #grade{
+        background-image: linear-gradient( to left, #ba5461, #07194b, #07194b, #07194b);
+        max-width: 100%;
+        padding: 50px;
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        /* overflow: hidden; */
+      }
+      #three-in-one{
+        width: 100%;
+      }
+      #laptop{
+        position: relative;
+        top: 50px;
+        left: -50px;
+        width: 100px;
+        /* transition: 0.7s; */
+      }
+      #word{
+        color: white;
+         font-size: 18px;
+          margin-top: -10px;
+           font-weight: 400;
+            font-stretch: 100%;
+              
+      }
+      #ddword{
+        position: relative;
+        top: -120px;
+        }
+        #girlie{
+          position: relative;
+          top: -200px;
+          left: 20px;
+          width: 300px;
+      
+        }
+        #watch{
+          position: relative;
+          top: -450px;
+          left: 240px;
+          width: 100px;
+          
+        }
+        #allover {
+          background-color: green;
+          color: white;
+        }
+        /* #allinside {
+
+        } */
+        #allever{
+          background-color: #07194b;
+          color: white;
+        }
+        #secure{
+          margin-top: -100px;
+          margin-left: -60px;
+          font-weight: 600;
+          font-size: 20px;
+        }
+        #tagget{
+         margin-top: 50px;
+          margin-left: 50px;
+          display: flex;
+          flex-direction: column;
+        }
+        #cards{
+          margin-top: 50px;
+          margin-left: -350px;
+          width: 1300px;
+        }
+        
+
+      
+    
+
+}
